@@ -18,5 +18,5 @@ sudo apt install fcitx-mozc -y
 sudo sh -c "cat cros-garcon-override.conf >> /etc/systemd/user/cros-garcon.service.d/cros-garcon-override.conf"
 ln -s $(cd $(dirname $0) && pwd)/.sommelierrc ~/.sommelierrc
 
-# install a key chain
+# install a key chain (Visual Studio Code uses this)
 sudo apt install gnome-keyring
